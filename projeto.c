@@ -18,6 +18,7 @@ int multiplica(int a,int b){
 	return mult;
 }
 int divisao(int a,int b){
+	
 	int div=a/b;
 	return div;
 }
@@ -27,8 +28,7 @@ int main(){
 	printf("soma dois numeros :%d\n",soma(5,5));
 	printf("subtrai dois numeros:%d\n",subtracao(5,2));
 	printf("multiplica dois numeros:%d\n",multiplica(4,3));
-	printf("divide dois numeros:%d",divisao(6,3));
-
+	printf("divisao de dois numeros:%d",divisao(6,3));
 	return 0;
 	
 }
